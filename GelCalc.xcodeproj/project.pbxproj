@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94852E62C1B810000911C94 /* GelCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94852E52C1B810000911C94 /* GelCalcApp.swift */; };
+		C94852E82C1B810000911C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94852E72C1B810000911C94 /* ContentView.swift */; };
+		C94852EA2C1B810100911C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94852E92C1B810100911C94 /* Assets.xcassets */; };
+		C94852ED2C1B810100911C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94852EC2C1B810100911C94 /* Preview Assets.xcassets */; };
+		C94852EF2C1B810100911C94 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94852EE2C1B810100911C94 /* Persistence.swift */; };
+		C94852F22C1B810100911C94 /* GelCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94852F02C1B810100911C94 /* GelCalc.xcdatamodeld */; };
+		C94852FD2C1B810100911C94 /* GelCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94852FC2C1B810100911C94 /* GelCalcTests.swift */; };
+		C94853072C1B810100911C94 /* GelCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94853062C1B810100911C94 /* GelCalcUITests.swift */; };
+		C94853092C1B810100911C94 /* GelCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94853082C1B810100911C94 /* GelCalcUITestsLaunchTests.swift */; };
+		C94853162C1B811A00911C94 /* Structure Gelat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94853152C1B811A00911C94 /* Structure Gelat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94852F92C1B810100911C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94852DA2C1B810000911C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94852E12C1B810000911C94;
+			remoteInfo = GelCalc;
+		};
+		C94853032C1B810100911C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94852DA2C1B810000911C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94852E12C1B810000911C94;
+			remoteInfo = GelCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C94852E22C1B810000911C94 /* GelCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94852E52C1B810000911C94 /* GelCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelCalcApp.swift; sourceTree = "<group>"; };
+		C94852E72C1B810000911C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C94852E92C1B810100911C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94852EC2C1B810100911C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C94852EE2C1B810100911C94 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C94852F12C1B810100911C94 /* GelCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GelCalc.xcdatamodel; sourceTree = "<group>"; };
+		C94852F32C1B810100911C94 /* GelCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GelCalc.entitlements; sourceTree = "<group>"; };
+		C94852F82C1B810100911C94 /* GelCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94852FC2C1B810100911C94 /* GelCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelCalcTests.swift; sourceTree = "<group>"; };
+		C94853022C1B810100911C94 /* GelCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94853062C1B810100911C94 /* GelCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelCalcUITests.swift; sourceTree = "<group>"; };
+		C94853082C1B810100911C94 /* GelCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C94853152C1B811A00911C94 /* Structure Gelat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure Gelat.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94852DF2C1B810000911C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94852F52C1B810100911C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94852FF2C1B810100911C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94852D92C1B810000911C94 = {
+			isa = PBXGroup;
+			children = (
+				C94852E42C1B810000911C94 /* GelCalc */,
+				C94852FB2C1B810100911C94 /* GelCalcTests */,
+				C94853052C1B810100911C94 /* GelCalcUITests */,
+				C94852E32C1B810000911C94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94852E32C1B810000911C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94852E22C1B810000911C94 /* GelCalc.app */,
+				C94852F82C1B810100911C94 /* GelCalcTests.xctest */,
+				C94853022C1B810100911C94 /* GelCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94852E42C1B810000911C94 /* GelCalc */ = {
+			isa = PBXGroup;
+			children = (
+				C94852E52C1B810000911C94 /* GelCalcApp.swift */,
+				C94852E72C1B810000911C94 /* ContentView.swift */,
+				C94853152C1B811A00911C94 /* Structure Gelat.swift */,
+				C94852E92C1B810100911C94 /* Assets.xcassets */,
+				C94852EE2C1B810100911C94 /* Persistence.swift */,
+				C94852F32C1B810100911C94 /* GelCalc.entitlements */,
+				C94852F02C1B810100911C94 /* GelCalc.xcdatamodeld */,
+				C94852EB2C1B810100911C94 /* Preview Content */,
+			);
+			path = GelCalc;
+			sourceTree = "<group>";
+		};
+		C94852EB2C1B810100911C94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C94852EC2C1B810100911C94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C94852FB2C1B810100911C94 /* GelCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				C94852FC2C1B810100911C94 /* GelCalcTests.swift */,
+			);
+			path = GelCalcTests;
+			sourceTree = "<group>";
+		};
+		C94853052C1B810100911C94 /* GelCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C94853062C1B810100911C94 /* GelCalcUITests.swift */,
+				C94853082C1B810100911C94 /* GelCalcUITestsLaunchTests.swift */,
+			);
+			path = GelCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94852E12C1B810000911C94 /* GelCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C948530C2C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalc" */;
+			buildPhases = (
+				C94852DE2C1B810000911C94 /* Sources */,
+				C94852DF2C1B810000911C94 /* Frameworks */,
+				C94852E02C1B810000911C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GelCalc;
+			productName = GelCalc;
+			productReference = C94852E22C1B810000911C94 /* GelCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94852F72C1B810100911C94 /* GelCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C948530F2C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalcTests" */;
+			buildPhases = (
+				C94852F42C1B810100911C94 /* Sources */,
+				C94852F52C1B810100911C94 /* Frameworks */,
+				C94852F62C1B810100911C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94852FA2C1B810100911C94 /* PBXTargetDependency */,
+			);
+			name = GelCalcTests;
+			productName = GelCalcTests;
+			productReference = C94852F82C1B810100911C94 /* GelCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C94853012C1B810100911C94 /* GelCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94853122C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalcUITests" */;
+			buildPhases = (
+				C94852FE2C1B810100911C94 /* Sources */,
+				C94852FF2C1B810100911C94 /* Frameworks */,
+				C94853002C1B810100911C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94853042C1B810100911C94 /* PBXTargetDependency */,
+			);
+			name = GelCalcUITests;
+			productName = GelCalcUITests;
+			productReference = C94853022C1B810100911C94 /* GelCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94852DA2C1B810000911C94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C94852E12C1B810000911C94 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C94852F72C1B810100911C94 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C94852E12C1B810000911C94;
+					};
+					C94853012C1B810100911C94 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C94852E12C1B810000911C94;
+					};
+				};
+			};
+			buildConfigurationList = C94852DD2C1B810000911C94 /* Build configuration list for PBXProject "GelCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94852D92C1B810000911C94;
+			productRefGroup = C94852E32C1B810000911C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94852E12C1B810000911C94 /* GelCalc */,
+				C94852F72C1B810100911C94 /* GelCalcTests */,
+				C94853012C1B810100911C94 /* GelCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94852E02C1B810000911C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94852ED2C1B810100911C94 /* Preview Assets.xcassets in Resources */,
+				C94852EA2C1B810100911C94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94852F62C1B810100911C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94853002C1B810100911C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94852DE2C1B810000911C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94853162C1B811A00911C94 /* Structure Gelat.swift in Sources */,
+				C94852EF2C1B810100911C94 /* Persistence.swift in Sources */,
+				C94852E82C1B810000911C94 /* ContentView.swift in Sources */,
+				C94852E62C1B810000911C94 /* GelCalcApp.swift in Sources */,
+				C94852F22C1B810100911C94 /* GelCalc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94852F42C1B810100911C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94852FD2C1B810100911C94 /* GelCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94852FE2C1B810100911C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94853092C1B810100911C94 /* GelCalcUITestsLaunchTests.swift in Sources */,
+				C94853072C1B810100911C94 /* GelCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94852FA2C1B810100911C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94852E12C1B810000911C94 /* GelCalc */;
+			targetProxy = C94852F92C1B810100911C94 /* PBXContainerItemProxy */;
+		};
+		C94853042C1B810100911C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94852E12C1B810000911C94 /* GelCalc */;
+			targetProxy = C94853032C1B810100911C94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C948530A2C1B810100911C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C948530B2C1B810100911C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C948530D2C1B810100911C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GelCalc/GelCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"GelCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GelCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C948530E2C1B810100911C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GelCalc/GelCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"GelCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GelCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C94853102C1B810100911C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GelCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GelCalc";
+			};
+			name = Debug;
+		};
+		C94853112C1B810100911C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GelCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GelCalc";
+			};
+			name = Release;
+		};
+		C94853132C1B810100911C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GelCalc;
+			};
+			name = Debug;
+		};
+		C94853142C1B810100911C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B43GPHYV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OJ.GelCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GelCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94852DD2C1B810000911C94 /* Build configuration list for PBXProject "GelCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C948530A2C1B810100911C94 /* Debug */,
+				C948530B2C1B810100911C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C948530C2C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C948530D2C1B810100911C94 /* Debug */,
+				C948530E2C1B810100911C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C948530F2C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94853102C1B810100911C94 /* Debug */,
+				C94853112C1B810100911C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94853122C1B810100911C94 /* Build configuration list for PBXNativeTarget "GelCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94853132C1B810100911C94 /* Debug */,
+				C94853142C1B810100911C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C94852F02C1B810100911C94 /* GelCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C94852F12C1B810100911C94 /* GelCalc.xcdatamodel */,
+			);
+			currentVersion = C94852F12C1B810100911C94 /* GelCalc.xcdatamodel */;
+			path = GelCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C94852DA2C1B810000911C94 /* Project object */;
+}
